@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+/* navbar */
+.navbar {
+    height: 60px;
+    background-color: #4C2B08;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("/logoo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;    
+}
+
+.logo-border:hover {
+    border: 2px solid #4C2B08;
+}
+
+/* box2 */
+.nav-search {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 620px;
+    text-align: center;
+}
+
+.nav-search:hover {
+    border: 3px solid #ab7843;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ab7843;
+   
+}
+
+/* box3 */
+.add-first {
+    font-size: 1rem;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.add-second {
+    font-size: 0.87rem;
+    margin-left: 6px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* box4 */
+.sign-first {
+    font-size: 1rem;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sign-second {
+    font-size: 0.87rem;
+    margin-left: 6px;
+}
+
+.sign-icon {
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+}
+
+/* box5 */
+.nav-cart {
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+}
+
+.cart-first {
+    font-size: 1rem;
+    margin-left: 6px;
+    font-weight: 600;
+}
+
+
+/* panel */
+.panel {
+    height: 35px;
+    background-color: #6d3914;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* box1 */
+.panel-menu {
+    font-size: 0.90rem;
+}
+
+.panel-menu i{
+    font-size: 17px;
+}
+
+/* box2 */
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+    width: 70px;
+    font-size: 0.90rem;
+}
+
+.panel-ops p:hover {
+    text-decoration: underline 2px;
+}
+
+/* box3 */
+.panel-socialicon i{
+    font-size: 17px; 
+} 
+
+/* hero section */
+.hero-section {
+    background-image: url("/coffeebanner.jpg");
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+}
+
+.hero-panel {
+    height: 30px;
+    padding-top: 16px;
+    background-color: #6d3914;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+    font-family: sans-serif;
+}
+/* buy section */
+.buy-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #6d3914;
+}
+
+.box {
+    height: 450px;
+    width: 25%;
+    background-color: #ab7843;
+    padding: 20px 0px 15px; 
+    margin-top: 16px;
+}
+
+.box-img {
+    height: 380px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+}
+
+.box-content p {
+    color: #4C2B08;
+    font-size: 1rem;
+}
+
+.box-content p:hover {
+     text-decoration: underline 1px;
+}
+
+/* footer section */
+.foot-panel1 {
+    height: 100px;
+    background-color: #6d3914;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight:400;
+}
+
+.foot-panel2 {
+    padding-top: 20px;
+    background-color: #4C2B08;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px; 
+    font-size: 1rem;
+}
+
+ul a {
+    display: block;
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+ul p {
+    font-size: 1.1rem;
+}
+
+.mail-search {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 169.2px;
+    text-align: center;
+}
+
+.mail-search:hover {
+    border: 3px solid black;
+}
+
+button {
+    width: 46.2px;
+    height: 30px;
+    font-weight:350;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ab7843;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.foot-panel3 {
+    background-color: #6d3914;
+    color: white;
+    height: 70px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 20px;
+}
